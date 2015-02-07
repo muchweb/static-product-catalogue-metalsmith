@@ -6,7 +6,10 @@ console.log(__dirname);
 
 Metalsmith(__dirname)
 	.use(markdown())
-	.use(templates('handlebars'))
+	.use(templates({
+		engine: 'handlebars',
+		master: 'html.hbs',
+	}))
 	.build(function (error, files) {
 		console.log(error);
 		console.log(files);
