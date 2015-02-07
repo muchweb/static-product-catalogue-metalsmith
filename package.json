@@ -1,0 +1,17 @@
+{
+  "name": "static-product-catalogue",
+  "version": "0.0.0",
+  "description": "Generating interactive product catalogue using Metalsmith and Ember.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "GPLv3+",
+  "dependencies": {
+    "handlebars": "^2.0.0",
+    "metalsmith": "^1.3.0",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-templates": "^0.6.0"
+  }
+}
