@@ -1,5 +1,5 @@
 ---
 title: Product 1
-template: html.hbs
+template: product.hbs
 ---
 Here is a description
