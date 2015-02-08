@@ -1,11 +1,10 @@
----
-parent: html.hbs
----
 <header>
     Header
 </header>
 <div id="page-content">
-    {{{contents}}}
+    {{#if template_product}}
+        {{>product}}
+    {{/if}}
 </div>
 <footer>
     Footer

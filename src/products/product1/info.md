@@ -1,5 +1,6 @@
 ---
 title: Product 1
-template: product.hbs
+layout: html.hbs
+template_product: true
 ---
-Here is a description
+Here is a description1

@@ -1,0 +1,36 @@
+html {
+	background: #f4f4f7;
+}
+body {
+	font-family: sans-serif;
+	background: #f4f4f7;
+	color: #444;
+	margin: 0;
+	padding: 0;
+	width: 800px;
+	margin: 0 auto;
+}
+
+header,
+footer {
+	padding: 32px;
+	border: 1px solid black;
+}
+
+#page-contents {
+	padding: 50px 20px;
+}
+
+.product {
+	border: 1px solid red;
+	& > .product-images {
+		border: 1px solid black;
+		display: inline-block;
+		width: 49%;
+	}
+	& > .product-description {
+		border: 1px solid black;
+		display: inline-block;
+		width: 49%;
+	}
+}
